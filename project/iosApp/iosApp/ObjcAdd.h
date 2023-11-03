@@ -6,12 +6,15 @@
 //  Copyright © 2023 orgName. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
+
 #ifndef ObjcAdd_h
 #define ObjcAdd_h
 
-int objcadd(int a, int b) {
-    return a + b * 2;
-}
+@interface ObjcAdd : NSObject
 
++ (int)add:(int)a andB:(int)b;
+
+@end
 
 #endif /* ObjcAdd_h */
