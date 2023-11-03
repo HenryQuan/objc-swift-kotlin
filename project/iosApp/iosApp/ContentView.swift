@@ -2,7 +2,7 @@ import SwiftUI
 import shared
 
 struct ContentView: View {
-    let greet = Greeting().greet() + "\nResult is \(compareAll(a: 1, b: 2))\n\(fibAll(num: 42))"
+    let greet = Greeting().greet() + "\nResult is \(compareAll(a: 88888888, b: 999999999))\n\(fibAll(num: 42))\n\(loopAll(num: 888888))"
 
 	var body: some View {
 		Text(greet)

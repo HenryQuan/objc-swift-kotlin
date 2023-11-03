@@ -4,5 +4,7 @@
 
 #import "ObjcAdd.h"
 #import "ObjCFib.h"
+#import "ObjCLoop.h"
 #import "CAdd.h"
 #import "CFib.h"
+#import "CLoop.h"

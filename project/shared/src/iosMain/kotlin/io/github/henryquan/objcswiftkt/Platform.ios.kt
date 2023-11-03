@@ -19,3 +19,11 @@ fun fibonacci(n: Int): Int {
         fibonacci(n - 1) + fibonacci(n - 2)
     }
 }
+
+fun loop(n: Int): Int {
+    var result = 0
+    for (i in 1..n) {
+        result += i
+    }
+    return result
+}
